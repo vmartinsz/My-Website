@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--FIM GOOGLE FONTS-->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#topo-do-site">
+                    <img src="images/Screenshot from 2023-10-31 14-50-06.png" width="100px" alt="Logo do Portfólio">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+
+            <div class="contato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div><!--contato-->
+
+            <div class="abrir-menu" id="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="fechar">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+    <main>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>OLÁ, EU SOU VITOR MARTINS<span>!</span></h1>
+                        <P>Sou um jovem desenvolvedor apaixonado pela tecnologia, focado em transformar códigos em soluções inovadoras. Estou pronto para trazer minha paixão e habilidades para impulsionar projetos desafiadores.</P>
+                        <div class="contato">
+                            <a href="#formulario">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img class="perfil" src="images/FotoPerfil.png" width="350px" alt="">
+                    </div><!--img-topo-site-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>PYTHON</h3>
+                        <p>Tenho habilidades em Python, abrangendo automação de tarefas, análise de dados, desenvolvimento web com Flask, integração de APIs e gerenciamento de bancos de dados.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h3>GIT</h3>
+                        <p>Experiência sólida com Git, incluindo controle de versão, colaboração em equipes e resolução eficiente de conflitos. Habilidade em usar Git para gerenciar o ciclo de vida de projetos de desenvolvimento de software.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-linux"></i>
+                        <h3>LINUX</h3>
+                        <p>Experiência com sistemas Linux, abrangendo administração, configuração e resolução de problemas. Possuo habilidade em trabalhar com comandos de terminal.</p>
+                    </div><!--especialidades-box-->
+                                                     
+                </div><!--flex-->
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Proficiente em HTML, com experiência na criação de páginas da web, estruturação de conteúdo, e uso de elementos e tags HTML para desenvolver interfaces e conteúdo visual na web. </p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Habilidades em CSS, abrangendo a estilização de páginas da web, design responsivo, e uso de seletores, classes e propriedades CSS para criar layouts e estilos atraentes e consistentes em sites e aplicações.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-sql"></i>
+                        <h3>MYSQL</h3>
+                        <p>Tenho habilidades MySQL, envolvendo a criação, manutenção e otimização de bancos de dados relacionais. Habilidade em consultas SQL, modelagem de dados e garantia de desempenho eficiente em aplicativos que dependem de dados armazenados.</p>
+                    </div><!--especialidades-box-->
+
+                </div>
+            </div><!--interface-->
+        </section><!--especialidades-->>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU VITOR MARTINS</span><h2>
+                        <p>Tenho 19 anos e sou um entusiasta do desenvolvimento, com um foco especial no back-end. Minha jornada começou com projetos acadêmicos, onde a linguagem Python se tornou minha aliada de confiança. No entanto, também explorei o mundo do desenvolvimento web, criando sites usando HTML e CSS, incluindo este portfólio que você está vendo.</p>
+                        <p>Além disso, aprimorei minhas habilidades em desenvolvimento web com a criação de mini projetos. Utilizei Flask para criar sites dinâmicos, Docker para gerenciar eficientemente imagens e integração Python com MySQL para armazenar dados com segurança. Minha paixão por DevOps também me levou à administração de infraestrutura usando Terraform e a personalização desses ambientes com o auxílio de Bootstrap e React.</p>
+                        <p>Para manter meus projetos organizados e colaborativos, sou proficiente em Git, garantindo um fluxo de trabalho suave e eficaz. Meu objetivo é continuar expandindo meu conhecimento e entregando soluções de alta qualidade em todos os projetos em que me envolvo.</p>
+                        <div class="social">
+                            <a href="https://github.com/vmartinsz"><button><i class="fa-brands fa-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/vitor-martins-636228255/"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                            <a href="/Downloads/Currículo Vitor.pdf" download=""><button><i class="fa-solid fa-file-arrow-down"></i></button></a>
+                        </div>
+                    </div><!--sobre-->
+                </div>
+            </div>
+        </section><!--sobre-->
+
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO</span></h2>
+                
+                <form method="post" action="envia.php">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail" required>
+                    <input type="text" name="celular" id="celular" placeholder="Seu celular">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#topo-do-site">
+                            <img src="images/Screenshot from 2023-10-31 14-50-06.png" width="100px" alt="">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/vmartinsz"><button><i class="fa-brands fa-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/vitor-martins-636228255/"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                        <a href="/Downloads/Currículo Vitor.pdf" download=""><button><i class="fa-solid fa-file-arrow-down"></i></button></a>
+                    </div>
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:vitormcamargo60@gmail.com">vitormcamargo60@gmail.com</p></a>
+            </div><!--line-footer-->
+
+        </div>
+    </footer>
+</body>
+</html>
